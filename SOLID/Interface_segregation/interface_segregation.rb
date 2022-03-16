@@ -1,6 +1,5 @@
 #code should not be forced to depend on methods that it does not use
 
-
 class Blog
     def edit_post
       puts "Post edited"
@@ -13,7 +12,7 @@ class Blog
     def create_post
       puts "Post created"
     end
-end
+  end
   
   blog = Blog.new
   blog.edit_post
