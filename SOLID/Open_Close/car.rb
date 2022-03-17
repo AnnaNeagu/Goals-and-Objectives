@@ -29,7 +29,7 @@ end
 
 car = Invoice.new(model_name: "Ford Kuga",price: 40000)
 
-delivery_address = Delivery_address.new(model_name: "Ford Kuga", price: 40.000, address: "Meinerzhagen street 342")
+delivery_address = Delivery_address.new(model_name: "Ford Kuga", price: 40000, address: "Meinerzhagen street 342")
 
 car.display
 delivery_address.display

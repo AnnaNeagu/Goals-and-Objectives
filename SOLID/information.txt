@@ -1,0 +1,21 @@
+Single responsibility 
+    A class or a method should only have one responsibility or should only have a reason to change
+
+Open/ Closed 
+    Classes should be open for extension but close for modification
+
+Liskov
+    This principle should have the ability to replace any instance of a parent class 
+    with an instance of a child classes 
+    without negative effects, without violating.
+
+Inteface segregation
+    larger instances of a class should be split into smaller classes
+    thus the classes focus on the methods of interes
+
+Dependency inversion
+    High-level modules should not import anything from low-level modules. Both should depend on abstractions    
+    Abstractions should not depend on details. Details should depend on abstractions.
+
+
+

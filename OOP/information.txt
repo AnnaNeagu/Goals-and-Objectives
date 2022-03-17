@@ -1,0 +1,25 @@
+ Abstraction *
+    Is like a coffee machine. You know that coffee machine makes coffee, but you don't need to know how it makes coffee.
+    All you need to know is about witch button to press to make coffee.    
+    In oop abstraction allows you to create seamless programs by just knowing what method to call and what parameters to input.
+
+Encapsulation
+    Using encapsulation can wrapping up of data under a single unit or we keep the data hidden from the outside
+    for example someone does the functionality of adding to the database, in this function is the username and password
+    and we want them not to be changed or mistakenly overwritten
+    thus we create a capsule that delimits the inside from the outside
+
+Inheritance *
+    Allows classes to take properties from other classes or allow extension from parent to child class.
+    For example we have a class of vehicles and two other classes of children cars and trucks
+    these two have common properties and specific properties
+
+Polymorphism  
+    Copy of the same method that may receive different input
+    For example when we have a product application and we want to search for a product by name or by a code
+    We create a function for the name and one for the code which will be the same, just different inputs
+    but each will return the same thing 
+    Polymorphism meaning many forms: 
+     1. Inheritance 
+     2. Duck-Typing = operations on the class of an object
+
