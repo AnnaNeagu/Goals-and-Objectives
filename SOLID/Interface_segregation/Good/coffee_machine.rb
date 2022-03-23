@@ -26,5 +26,4 @@ class CoffeeMachine
         bloom
         filter_coffee
     end
-
 end

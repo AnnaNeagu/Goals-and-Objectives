@@ -3,7 +3,7 @@
     All you need to know is about witch button to press to make coffee.    
     In oop abstraction allows you to create seamless programs by just knowing what method to call and what parameters to input.
 
-Encapsulation
+Encapsulation *
     Using encapsulation can wrapping up of data under a single unit or we keep the data hidden from the outside
     for example someone does the functionality of adding to the database, in this function is the username and password
     and we want them not to be changed or mistakenly overwritten

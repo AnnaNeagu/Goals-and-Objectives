@@ -6,6 +6,11 @@ class Rectangle
     def set_width(width)
       @width = width
     end
+
+    def calculate_area
+      area = @height * @width
+      puts area
+    end
   end
   
   class Square < Rectangle
@@ -19,3 +24,10 @@ class Rectangle
       @height = width
     end
   end
+
+  object = Square.new
+  object.set_height(20)
+  object.set_width(30)
+
+  object.calculate_area
+

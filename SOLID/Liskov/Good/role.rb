@@ -1,9 +1,9 @@
 class Role
-    def to_s;
-        'default'
+    def to_s; 
+       'default'
     end
   end
-  #We can easily interchange these classes without breaking the expected behaviour of the RoleLogger#print_role method
+
   class Admin < Role
     def to_s; 
         'admin' 
@@ -15,7 +15,7 @@ class Role
         'user'
      end
   end
-  
+#We can easily interchange these classes without breaking the expected behaviour of the RoleLogger#print_role method
   class RoleLogger # method takes a role argument
     def print_role(role)
       puts "role: #{role}"
